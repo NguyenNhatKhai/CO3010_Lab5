@@ -1,0 +1,3 @@
+../Core/Src/uart.c:16:6:HAL_UART_RxCpltCallback	2
+../Core/Src/uart.c:23:6:uartRead	2
+../Core/Src/uart.c:30:6:uartSend	1

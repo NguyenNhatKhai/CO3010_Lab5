@@ -62,6 +62,8 @@ void Error_Handler(void);
 
 /* USER CODE BEGIN Private defines */
 #define TIMER_TICK 10
+extern UART_HandleTypeDef huart2;
+extern ADC_HandleTypeDef hadc1;
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
