@@ -61,7 +61,7 @@ void Error_Handler(void);
 #define LED_RED_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
-
+#define TIMER_TICK 10
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
