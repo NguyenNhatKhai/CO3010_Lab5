@@ -14,7 +14,7 @@ void commandExecute(void) {
 	if (strcmp(commandString, "!RST#") == 0) {
 		SCH_AddTask(sensorRead, 0, 0);
 		commandTask = SCH_DeleteTask(commandTask);
-		commandTask = SCH_AddTask(uartSend, 100, 1000);
+		commandTask = SCH_AddTask(uartSend, 100, 3000);
 		return;
 	}
 	if (strcmp(commandString, "!OK#") == 0) {

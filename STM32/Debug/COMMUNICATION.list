@@ -118,8 +118,8 @@ void commandExecute(void) {
  8000188:	461a      	mov	r2, r3
  800018a:	4b12      	ldr	r3, [pc, #72]	; (80001d4 <commandExecute+0x74>)
  800018c:	701a      	strb	r2, [r3, #0]
-		commandTask = SCH_AddTask(uartSend, 100, 1000);
- 800018e:	f44f 727a 	mov.w	r2, #1000	; 0x3e8
+		commandTask = SCH_AddTask(uartSend, 100, 3000);
+ 800018e:	f640 32b8 	movw	r2, #3000	; 0xbb8
  8000192:	2164      	movs	r1, #100	; 0x64
  8000194:	4810      	ldr	r0, [pc, #64]	; (80001d8 <commandExecute+0x78>)
  8000196:	f000 fa7b 	bl	8000690 <SCH_AddTask>
