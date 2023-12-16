@@ -1,1 +1,2 @@
-../Core/Src/command.c:12:6:commandParser	7
+../Core/Src/command.c:13:6:commandExecute	3
+../Core/Src/command.c:26:6:commandParser	5

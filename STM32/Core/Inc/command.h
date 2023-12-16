@@ -12,6 +12,7 @@
 #include "scheduler.h"
 #include "uart.h"
 
+void commandExecute(void);
 void commandParser(void);
 
 #endif /* INC_COMMAND_H_ */
